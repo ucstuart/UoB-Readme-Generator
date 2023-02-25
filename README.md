@@ -1,9 +1,9 @@
 
 # 1
 
-## License Badge
+## Project Badges
 
-![GitHub](https://img.shields.io/github/license/ucstuart/UoB-Readme-Generator?style=for-the-badge)
+![License](https://img.shields.io/github/license/ucstuart/UoB-Readme-Generator?style=for-the-badge) ![Language Count](https://img.shields.io/github/languages/count/ucstuart/UoB-Readme-Generator?style=for-the-badge) ![Main Language](https://img.shields.io/github/languages/top/ucstuart/UoB-Readme-Generator?style=for-the-badge)
 
 ## Description
     
@@ -33,20 +33,20 @@ GPL General Public License V2.0
 
 ## Contributors
 
-4
+5
 
 ## Test instructions
 
-6
+7
 
 ## Questions and Answers
 
-7
+8
 
 ## Contact information
 
 GitHub Profile ucstuart
 
-Email Address 3
+Email Address stuart@ucreseller.co.uk
     
 

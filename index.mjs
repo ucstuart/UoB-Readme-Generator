@@ -110,9 +110,11 @@ if (env === "T") {
 
 let GitProfile = "https://github.com/"+github;
 
-// Create the License Badge if there is a license
+// Badges
 
-let licenseBadge = "![GitHub](https://img.shields.io/github/license/"+github+"/"+reponame+"?style=for-the-badge)"
+let licenseBadge = "![License](https://img.shields.io/github/license/"+github+"/"+reponame+"?style=for-the-badge)";
+let languageCountBadge = "![Language Count](https://img.shields.io/github/languages/count/"+github+"/"+reponame+"?style=for-the-badge)";
+let language = "![Main Language](https://img.shields.io/github/languages/top/"+github+"/"+reponame+"?style=for-the-badge)";
 
 
 if ( env === "T") {
@@ -131,9 +133,9 @@ if ( env ==="T") {
 const ReadMe = `
 # ${title}
 
-## License Badge
+## Project Badges
 
-${licenseBadge}
+${licenseBadge} ${languageCountBadge} ${language}
 
 ## Description
     
