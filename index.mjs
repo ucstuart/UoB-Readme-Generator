@@ -5,7 +5,7 @@ import fs from "fs/promises"; // import fs with promises
 
 // Setup Testing Environment
 
-let env = "T" // sets the environment to T for Testing or P for Production
+let env = "P" // sets the environment to T for Testing or P for Production
 
 // Declare const variables
 
@@ -50,6 +50,7 @@ const {
         message: "Which license is applicable to your project? (Please ensure the License is Correctly Set on the REPO as this will affect the Logo Displayed!!!) ",
         choices: ["GPL General Public License V2.0","GPL General Public License V3.0","Creative Commons Attribution 4.0","MIT","None"],
     },
+    // We could remove human error by creating the LICENSE.MD file based upon the input but this is FUTURE development
     {
         type: "input",
         name: "contributors",
