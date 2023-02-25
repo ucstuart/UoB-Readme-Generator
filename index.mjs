@@ -144,13 +144,13 @@ ${description}
 ## Table of Contents
 
 * [Installation](#Installation)
-* [Usage instructions](#Usage instructions)
-* [License informaiton](#License information)
+* [Usage](#Usage)
+* [License](#License)
 * [Contributors](#Contributors)
 * [Credits](#Credits)
-* [Test instructions ](#Test instructions)
-* [Questions and Answers](#Questions and Answers)
-* [Contact Information](#Contact Information)
+* [Test](#Test)
+* [Questions](#Questions)
+* [Contact](#Contact")
 
 ## Installation
 

@@ -1,5 +1,5 @@
 
-# UoB readme.md Creator
+# UoB README.MD Creator
 
 ## Project Badges
 
@@ -7,18 +7,18 @@
 
 ## Description
     
-This project builds a README.MD file from the users inputs using node. 
+This project builds a README.MD file from the users inputs using node.
 
 ## Table of Contents
 
 * [Installation](#Installation)
-* [Usage instructions](#Usage instructions)
-* [License informaiton](#License information)
+* [Usage](#Usage)
+* [License](#License)
 * [Contributors](#Contributors)
 * [Credits](#Credits)
-* [Test instructions ](#Test instructions)
-* [Questions and Answers](#Questions and Answers)
-* [Contact Information](#Contact Information)
+* [Test](#Test)
+* [Questions](#Questions)
+* [Contact](#Contact")
 
 ## Installation
 
