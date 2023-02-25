@@ -1,5 +1,5 @@
 
-# UoB Readme.MD Creator
+# UoB readme.md Creator
 
 ## Project Badges
 
@@ -7,25 +7,26 @@
 
 ## Description
     
-This project builds a README.MD file from user inputs using Node
+This project builds a README.MD file from the users inputs using node. 
 
 ## Table of Contents
 
 * [Installation](#Installation)
-* [Usage instructions](#Usage)
-* [License informaiton](#License)
+* [Usage instructions](#Usage instructions)
+* [License informaiton](#License information)
 * [Contributors](#Contributors)
-* [Test instructions ](#Test)
-* [Questions and Answers](#Questions)
-* [Contact Information](#Contact)
+* [Credits](#Credits)
+* [Test instructions ](#Test instructions)
+* [Questions and Answers](#Questions and Answers)
+* [Contact Information](#Contact Information)
 
 ## Installation
 
-Clone the Project to your local computer using git clone 
+Clone the Project to your local computer using git clone
 
 ## Usage instructions
 
-Within the Terminal Window execute the command: node index.mjs
+With the Terminal Window execute the command: node index.mjs
 
 ## License information
 
@@ -34,6 +35,10 @@ MIT
 ## Contributors
 
 Just me
+
+## Credits
+
+I have used shields.io to dynamically get the images for the badges to display using information obtained from GitHub.
 
 ## Test instructions
 

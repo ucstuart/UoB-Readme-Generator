@@ -147,6 +147,7 @@ ${description}
 * [Usage instructions](#Usage instructions)
 * [License informaiton](#License information)
 * [Contributors](#Contributors)
+* [Credits](#Credits)
 * [Test instructions ](#Test instructions)
 * [Questions and Answers](#Questions and Answers)
 * [Contact Information](#Contact Information)
@@ -166,6 +167,10 @@ ${license}
 ## Contributors
 
 ${contributors}
+
+## Credits
+
+${credits}
 
 ## Test instructions
 
