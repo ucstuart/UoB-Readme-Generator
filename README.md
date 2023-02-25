@@ -1,5 +1,5 @@
 
-# 1
+# UoB Readme.MD Creator
 
 ## Project Badges
 
@@ -7,7 +7,7 @@
 
 ## Description
     
-2
+This project builds a README.MD file from user inputs using Node
 
 ## Table of Contents
 
@@ -21,27 +21,27 @@
 
 ## Installation
 
-3
+Clone the Project to your local computer using git clone 
 
 ## Usage instructions
 
-4
+Within the Terminal Window execute the command: node index.mjs
 
 ## License information
 
-GPL General Public License V2.0
+MIT
 
 ## Contributors
 
-5
+Just me
 
 ## Test instructions
 
-7
+Within the terminal execute the command node index.mjs answer the questions, and the README.MD file should be created, the badges that are displayed at the top depend on the LICENSE.MD file entry and also it will also detect the quantity and the main language used for your project.
 
 ## Questions and Answers
 
-8
+If you have any questions on this project please reach out t using h the details below
 
 ## Contact information
 
