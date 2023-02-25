@@ -3,11 +3,11 @@
 
 ## License Badge
 
-<img src=https://img.shields.io/github/license/ucstuart/UoB-Readme-Generator?style=for-the-badge>
+![GitHub](https://img.shields.io/github/license/ucstuart/UoB-Readme-Generator?style=for-the-badge)
 
 ## Description
     
-1
+2
 
 ## Table of Contents
 
@@ -21,11 +21,11 @@
 
 ## Installation
 
-1
+3
 
 ## Usage instructions
 
-1
+4
 
 ## License information
 
@@ -33,20 +33,20 @@ GPL General Public License V2.0
 
 ## Contributors
 
-1
+4
 
 ## Test instructions
 
-1
+6
 
 ## Questions and Answers
 
-1
+7
 
 ## Contact information
 
 GitHub Profile ucstuart
 
-Email Address e
+Email Address 3
     
 

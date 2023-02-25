@@ -111,7 +111,7 @@ let GitProfile = "https://github.com/"+github;
 
 // Create the License Badge if there is a license
 
-let licenseBadge = "https://img.shields.io/github/license/"+github+"/"+reponame+"?style=for-the-badge"
+let licenseBadge = "![GitHub](https://img.shields.io/github/license/"+github+"/"+reponame+"?style=for-the-badge)"
 
 
 if ( env === "T") {
@@ -132,7 +132,7 @@ const ReadMe = `
 
 ## License Badge
 
-<img src=${licenseBadge}>
+${licenseBadge}
 
 ## Description
     
