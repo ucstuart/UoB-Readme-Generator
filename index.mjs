@@ -21,6 +21,7 @@ const {
     test,
     questions,
     github,
+    reponame,
     email,
 } = await inquirer.prompt([
     {
@@ -29,7 +30,7 @@ const {
         message: "What is the Title for this Project? ",
     },
     {
-        type:  "editor",
+        type:  "input", // we could change this to editor to allow the use of an externa editior (have tested works well) this could also be done for any other entries that may be multiline and detailed.
         name: "description",
         message: "Brief description of the project: ",
     },
@@ -46,7 +47,7 @@ const {
     {
         type: "checkbox",
         name: "license",
-        message: "Which license is applicable to your project? ",
+        message: "Which license is applicable to your project? (Please ensure the License is Correctly Set on the REPO as this will affect the Logo Displayed!!!) ",
         choices: ["GPL General Public License V2.0","GPL General Public License V3.0","Creative Commons Attribution 4.0","MIT","None"],
     },
     {
@@ -76,6 +77,11 @@ const {
     },
     {
         type: "input",
+        name: "reponame",
+        message: "Please enter the Repo Name: ",
+    },
+    {
+        type: "input",
         name: "email",
         message: "Please enter your email address: ",
     },
@@ -95,7 +101,93 @@ if (env === "T") {
     console.log("How to Test :"+test);
     console.log("Q&A :"+questions);
     console.log("GitHub Username :"+github);
+    console.log("Repo Name: "+reponame);
     console.log("Email Address :"+email);
 };
 
+// create a variable to store the GitHub Profile URL
+
+let GitProfile = "https://github.com/"+github;
+
+// Create the License Badge if there is a license
+
+let licenseBadge = "https://img.shields.io/github/license/"+github+"/"+reponame+"?style=for-the-badge"
+
+
+if ( env === "T") {
+    console.log("License Badge Construct: "+licenseBadge);
+};
+
+
+// Output to console if in Testing Environment
+
+if ( env ==="T") {
+    console.log("GitProfile :"+GitProfile);
+};
+
+// Construct the Readme File
+
+const ReadMe = `
+# ${title}
+
+## License Badge
+
+<img src=${licenseBadge}>
+
+## Description
+    
+${description}
+
+## Table of Contents
+
+* [Installation](#Installation)
+* [Usage instructions](#Usage)
+* [License informaiton](#License)
+* [Contributors](#Contributors)
+* [Test instructions ](#Test)
+* [Questions and Answers](#Questions)
+* [Contact Information](#Contact)
+
+## Installation
+
+${installation}
+
+## Usage instructions
+
+${usage}
+
+## License information
+
+${license}
+
+## Contributors
+
+${contributors}
+
+## Test instructions
+
+${test}
+
+## Questions and Answers
+
+${questions}
+
+## Contact information
+
+GitHub Profile ${github}
+
+Email Address ${email}
+    
+
+`;
+
+// output to console if in testing environment
+
+if ( env === "T") {
+    console.log(ReadMe);
+}
+
+// Write the file README.md using the data stored in ReadMe
+
+await fs.writeFile("README.md", ReadMe);
 
