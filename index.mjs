@@ -1,10 +1,11 @@
 // import required modules
 
 import inquirer from "inquirer";
-import fs from "fs/promises";
+import fs from "fs/promises"; // import fs with promises
 
+// Setup Testing Environment
 
-// import fs with promises
+let env = "T" // sets the environment to T for Testing or P for Production
 
 // Declare const variables
 
@@ -28,7 +29,7 @@ const {
         message: "What is the Title for this Project? ",
     },
     {
-        type:  "input",
+        type:  "editor",
         name: "description",
         message: "Brief description of the project: ",
     },
@@ -50,7 +51,7 @@ const {
     },
     {
         type: "input",
-        name: "contributor",
+        name: "contributors",
         message: "Who contributed to the project? ",
     },
     {
@@ -79,3 +80,22 @@ const {
         message: "Please enter your email address: ",
     },
 ]);
+
+// Outputs to console the information if we are in the Testing environment
+
+if (env === "T") {
+    console.log("Title :"+title);
+    console.log("Description :"+description);
+    console.log("Table of Contents :"+toc);
+    console.log("Installation Instructions :"+installation);
+    console.log("How to Use :"+usage);
+    console.log("Licnese :"+license);
+    console.log("Contributors :"+contributors);
+    console.log("Credits :"+credits);
+    console.log("How to Test :"+test);
+    console.log("Q&A :"+questions);
+    console.log("GitHub Username :"+github);
+    console.log("Email Address :"+email);
+};
+
+
